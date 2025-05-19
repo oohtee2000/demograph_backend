@@ -15,7 +15,7 @@ const app = express();
 
 // Apply middleware BEFORE routes
 app.use(cors({
-  origin: ["http://localhost:3000"],
+  origin: ["http://localhost:3000", "https://demograph-frontend.onrender.com"],
   credentials: true // needed for cookies/sessions
 }));
 
